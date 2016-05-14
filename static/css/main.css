@@ -24,3 +24,15 @@ h1, h2, h3, h4, h5, h6 {
 	height: 30px;
 	color: #555555;
 }
+
+caption {
+	text-align: center;
+}
+
+.centri {
+	text-align: center;
+}
+
+#text-field, #number-field, #date-field, .form-control {
+	width: 20%;
+}

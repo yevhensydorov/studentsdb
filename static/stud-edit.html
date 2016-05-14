@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<title>Сервіс обліку студентів</title>
+	<meta name="description" value="Система Обліку Студентів Навчального Закладу">
+	<!-- Include Styles -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap/3.3.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+	<!--Start Container -->
+	<div class="container">
+
+		<!--Start Header -->
+		<div class="row" id="header">
+			<!-- Logo -->
+			<div class="col-xs-8">
+				<h1>Форма редагування Студента</h1>
+			</div>
+		
+		</div>
+		<!-- End Header -->
+
+		<!--Start SubHeader -->
+		
+		<!-- End Subheader -->
+
+		<!-- Start Main Page Content -->
+		<form>
+			<div class="form-group">
+				<label for="text-field">Ім'я</label>
+				<input type="text" class="form-control" id="text-field" placeholder="Віталій">
+			</div>
+			<div class="form-group">
+				<label for="text-field">По-батькові</label>
+				<input type="text" class="form-control" id="text-field" placeholder="Івановіч">
+			</div>
+			<div class="form-group">
+				<label for="text-field">Прізвище</label>
+				<input type="text" class="form-control" id="text-field" placeholder="Подоба">
+			</div>
+			<div class="form-group">
+				<label for="number-field">№ Білету</label>
+				<input type="number" class="form-control" id="number-field" placeholder="254">
+			</div>
+			<div class="form-group">
+				<label for="date-field">Дата Народження</label>
+				<input type="date" class="form-control" id="date-field">
+			</div>
+			<div class="form-group">
+				<label for="exampleInputFile">Фото</label>
+				<input type="file" id="exampleInputFile">
+				<p class="help-block">Вибрати зображення</p>
+			</div>
+			<div class="form-group">
+				<label for="exampleInputFile">Група</label>
+				<select class="form-control">
+					<option>МтМ-21</option>
+					<option>МтМ-22</option>
+					<option>МтМ-23</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="text-area-field">Додаткові Нотатки</label>
+				<textarea class="form-control" rows="3" placeholder="тест"></textarea>
+			</div>
+			<a class="btn btn-primary" href="#">Зберегти</a>
+			<button type="submit" class="btn btn-default">Скасувати</button>
+		</form>
+	
+	<!-- End Main Page Content -->
+
+	<!-- Start footer -->
+	<div class="row" id="footer">
+		<div class="col-xs-12">&copy; 2016 Сервіс обліку студентів</div>
+	</div>
+	<!-- End Footer -->
+</div>
+<!-- End Container -->
+
+
+<!--Javascript section -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
+<script src="https://cdn.jsdelivr.net/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</body>
+</html>
